@@ -11,9 +11,11 @@ public class ModItems{
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, CoppernBronze.MOD_ID);
 
-    public static final RegistryObject<Item> BRONZEINGOT = ITEMS.register("bronzeingot",
+    public static final RegistryObject<Item> BRONZE_INGOT = ITEMS.register("bronze_ingot",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> BRONZENUGGET = ITEMS.register("bronzenugget",
+    public static final RegistryObject<Item> BRONZE_NUGGET = ITEMS.register("bronze_nugget",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BRONZE_SWORD = ITEMS.register("bronze_sword",
             () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBUS){

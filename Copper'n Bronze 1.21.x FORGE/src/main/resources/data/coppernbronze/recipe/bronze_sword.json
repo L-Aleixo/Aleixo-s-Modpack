@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "B": {
+      "item": "coppernbronze:bronze_ingot"
+    }
+  },
+  "pattern": [
+    "B",
+    "B",
+    "#"
+  ],
+  "result": {
+    "id": "coppernbronze:bronze_sword"
+  },
+  "show_notification": true
+}

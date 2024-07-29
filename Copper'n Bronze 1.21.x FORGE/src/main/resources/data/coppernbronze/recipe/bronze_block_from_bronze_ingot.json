@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "coppernbronze:bronze_ingot"
+    }
+  },
+  "result": {
+    "id": "coppernbronze:bronze_block"
+  }
+}

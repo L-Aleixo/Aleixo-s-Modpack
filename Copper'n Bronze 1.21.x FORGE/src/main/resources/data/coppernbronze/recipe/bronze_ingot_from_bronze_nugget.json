@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "coppernbronze:bronze_nugget"
+    }
+  },
+  "result": {
+    "id": "coppernbronze:bronze_ingot"
+  }
+}

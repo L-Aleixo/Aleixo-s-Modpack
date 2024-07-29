@@ -1,8 +1,9 @@
 {
-  "item.coppernbronze.bronzeingot": "Bronze Ingot",
-  "item.coppernbronze.bronzenugget": "Bronze Nugget",
+  "item.coppernbronze.bronze_ingot": "Bronze Ingot",
+  "item.coppernbronze.bronze_nugget": "Bronze Nugget",
+  "item.coppernbronze.bronze_sword": "Bronze Sword",
 
-  "block.coppernbronze.bronzeblock": "Block of Bronze",
+  "block.coppernbronze.bronze_block": "Block of Bronze",
 
   "creativetab.coppernbronze_tab": "Copper'n Bronze"
 }

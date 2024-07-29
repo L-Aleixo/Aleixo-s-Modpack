@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "coppernbronze:item/bronzeingot"
+    "layer0": "coppernbronze:item/bronze_ingot"
   }
 }
