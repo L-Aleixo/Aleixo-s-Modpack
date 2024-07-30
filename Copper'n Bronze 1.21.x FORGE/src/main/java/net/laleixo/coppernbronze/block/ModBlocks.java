@@ -21,6 +21,8 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> BRONZE_BLOCK = registerBlock("bronze_block",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK).sound(SoundType.NETHERITE_BLOCK))); //ofFullCopy(Blocks.IRON_BLOCK).sound(SoundType.OTHER).etc
+    public static final RegistryObject<Block> COPPER_BUTTON = registerBlock("copper_button",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE_BUTTON)));
 
     public static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

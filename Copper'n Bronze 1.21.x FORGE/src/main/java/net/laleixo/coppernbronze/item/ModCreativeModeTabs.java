@@ -21,6 +21,8 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(Items.COPPER_INGOT);
 
+                        output.accept(ModBlocks.COPPER_BUTTON.get());
+
                         output.accept(ModItems.BRONZE_INGOT.get());
                         output.accept(ModItems.BRONZE_NUGGET.get());
                         output.accept(ModItems.BRONZE_SWORD.get());
