@@ -15,7 +15,7 @@ public class ModTags {
         public static final TagKey<Block> INCORRECT_FOR_BRONZE_TOOL = tag("incorrect_for_bronze_tool");
 
         private static TagKey<Block> tag(String name) {
-            return BlockTags.create(new ResourceLocation(CoppernBronze.MOD_ID, name));
+            return BlockTags.create(new ResourceLocation.(CoppernBronze.MOD_ID, name));
         }
     }
 
