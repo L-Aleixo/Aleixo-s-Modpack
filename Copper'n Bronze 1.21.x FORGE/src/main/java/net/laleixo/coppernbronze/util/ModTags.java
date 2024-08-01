@@ -22,7 +22,7 @@ public class ModTags {
     public static class Items {
 
         private static TagKey<Item> tag(String name) {
-            return ItemTags.create(new ResourceLocation(CoppernBronze.MOD_ID, name));
+            return ItemTags.create(new ResourceLocation.(CoppernBronze.MOD_ID, name));
         }
     }
 }
