@@ -15,14 +15,14 @@ public class ModTags {
         public static final TagKey<Block> INCORRECT_FOR_BRONZE_TOOL = tag("incorrect_for_bronze_tool");
 
         private static TagKey<Block> tag(String name) {
-            return BlockTags.create(new ResourceLocation.(CoppernBronze.MOD_ID, name));
+            return BlockTags.create(new ResourceLocation(CoppernBronze.MOD_ID, name));
         }
     }
 
     public static class Items {
 
         private static TagKey<Item> tag(String name) {
-            return ItemTags.create(new ResourceLocation.(CoppernBronze.MOD_ID, name));
+            return ItemTags.create(new ResourceLocation(CoppernBronze.MOD_ID, name));
         }
     }
 }

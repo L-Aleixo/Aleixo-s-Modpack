@@ -4,6 +4,8 @@
   "item.coppernbronze.bronze_sword": "Bronze Sword",
 
   "block.coppernbronze.copper_button": "Copper Button",
+  "tooltip.coppernbronze.copper_button": "Fast. Sends 1 tick pulse",
+
   "block.coppernbronze.bronze_block": "Block of Bronze",
 
   "creativetab.coppernbronze_tab": "Copper'n Bronze"
