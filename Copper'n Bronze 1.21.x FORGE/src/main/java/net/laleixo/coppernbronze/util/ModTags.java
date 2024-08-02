@@ -10,7 +10,7 @@ import net.minecraft.world.level.block.Block;
 
 
 public class ModTags {
-    public static class Blocks {
+    /*public static class Blocks {
         public static final TagKey<Block> NEEDS_BRONZE_TOOL = tag("needs_bronze_tool");
         public static final TagKey<Block> INCORRECT_FOR_BRONZE_TOOL = tag("incorrect_for_bronze_tool");
 
@@ -24,5 +24,5 @@ public class ModTags {
         private static TagKey<Item> tag(String name) {
             return ItemTags.create(new ResourceLocation(CoppernBronze.MOD_ID, name));
         }
-    }
+    }*/
 }
